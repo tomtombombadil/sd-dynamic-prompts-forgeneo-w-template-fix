@@ -1,3 +1,6 @@
+# THIS IS A FORK OF abzaloff/sd-dynamic-prompts WITH ONLY ONE CHANGE
+I forked this to correct a problem with the combination of ADetailer and sd-dynamic-prompts extensions. When used together, the prompt template text would get overwritten in memory by the final prompt text, and then that text would be written to the embedded image data as well as csv data. This fork fixes that issue. Other than that, it is IDENTICAL to abzaloff's work for Forge Neo.
+
 # Stable Diffusion Dynamic Prompts extension
 A custom extension for [AUTOMATIC1111/stable-diffusion-webui](https://github.com/AUTOMATIC1111/stable-diffusion-webui) that implements an expressive template language for random or combinatorial prompt generation along with features to support deep wildcard directory structures.
 
